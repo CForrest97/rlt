@@ -1,0 +1,12 @@
+rocket-league-tracker:
+  component: "@sls-next/serverless-component@v3.4.0"
+  inputs:
+    domain:
+      - "rlt"
+      - "craigforrest.co.uk"
+    description: "A Rocket League Tracker app built with NextJS and deployed on Lambda@Edge"
+    name:
+      defaultLambda: rocket-league-tracker-default
+      apiLambda: rocket-league-tracker-api
+    AccelerateConfiguration:
+      AccelerationStatus: Enabled
