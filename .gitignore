@@ -6,3 +6,5 @@ coverage/
 .serverless
 .serverless_nextjs
 report.*.json
+.idea
+yarn-error.log

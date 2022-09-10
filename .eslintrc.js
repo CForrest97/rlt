@@ -12,14 +12,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {
-    "max-len": [
-      "error",
-      {
-        code: 120,
-        ignoreUrls: true,
-        ignoreTemplateLiterals: true,
-      },
-    ],
+    "max-len": "off",
     "arrow-body-style": ["error", "as-needed"],
     "@typescript-eslint/no-explicit-any": "off",
     "import/extensions": ["error", "never"],

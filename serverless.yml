@@ -1,5 +1,5 @@
 rocket-league-tracker:
-  component: "@sls-next/serverless-component@v3.4.0"
+  component: "@sls-next/serverless-component@v3.5.3-alpha.4"
   inputs:
     domain:
       - "rlt"
@@ -10,3 +10,5 @@ rocket-league-tracker:
       apiLambda: rocket-league-tracker-api
     AccelerateConfiguration:
       AccelerationStatus: Enabled
+    cloudfront:
+      distributionId: E62ICHEIZJ7AF
